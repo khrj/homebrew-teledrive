@@ -1,6 +1,6 @@
 cask "teledrive" do
-  version "0.9.5"
-  sha256 "3fcecd310191aaaf15e952813f328a1fb59a69c1a13fa6050ee8cccfa49882ab"
+  version "0.9.6"
+  sha256 "0cb351c9fff313982228db16c466091d3c00985930baf21c3f06d57a3f216f60"
   
   # github.com/KhushrajRathod/TeleDrive/ was verified as official when first introduced to the cask
   url "https://www.khushrajrathod.me/TeleDrive/latest/macOS"

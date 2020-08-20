@@ -13,6 +13,7 @@ cask "teledrive" do
   app "TeleDrive.app"
   
   zap trash: [
+    "~/Library/Application Support/TeleDrive",
     "~/Library/Caches/me.khushrajrathod.teledrive*",
     "~/Library/Logs/DiagnosticReports/TeleDrive*",
     "~/Library/Logs/TeleDrive",

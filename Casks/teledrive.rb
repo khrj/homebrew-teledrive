@@ -1,9 +1,9 @@
 cask "teledrive" do
-  version :latest
-  sha256 :no_check
+  version "0.9.7"
+  sha256 "d1a70c4c9aadf0b39e6d1bb3c039de2e411a269a13b0d770a0a70732aff249b9"
   
   # github.com/KhushrajRathod/TeleDrive/ was verified as official when first introduced to the cask
-  url "https://www.khushrajrathod.me/TeleDrive/latest/macOS"
+  url "https://github.com/KhushrajRathod/TeleDrive/releases/download/v#{version}/TeleDrive-#{version}.dmg"
   appcast "https://github.com/KhushrajRathod/TeleDrive/releases.atom"
   name "TeleDrive"
   homepage "https://github.com/KhushrajRathod/TeleDrive/"

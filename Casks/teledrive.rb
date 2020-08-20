@@ -23,5 +23,5 @@ cask "teledrive" do
     "~/Library/Saved Application State/me.khushrajrathod.teledrive.savedState",
   ]
   
-  caveats "If installed without --no-quarantine, gatekeeper will stop you from running the app the first time. Right-click > Open in finder the first time to workaround. See https://github.com/KhushrajRathod/TeleDrive/issues/10 for details"
+  caveats "If installed without --no-quarantine, gatekeeper will\n stop you from running the app the first time.\n 'Right-click > Open' in finder the first time to workaround.\n See https://github.com/KhushrajRathod/TeleDrive/issues/10 for details"
 end

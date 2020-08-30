@@ -1,6 +1,6 @@
 cask "teledrive" do
-  version "0.9.7"
-  sha256 "d1a70c4c9aadf0b39e6d1bb3c039de2e411a269a13b0d770a0a70732aff249b9"
+  version "1.0.0"
+  sha256 "d04d002b57d39fc17f106533365f7e3a2bee59a4d8962f5a8b6c80b3ef01bfe2"
   
   # github.com/KhushrajRathod/TeleDrive/ was verified as official when first introduced to the cask
   url "https://github.com/KhushrajRathod/TeleDrive/releases/download/v#{version}/TeleDrive-#{version}.dmg"

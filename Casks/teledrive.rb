@@ -2,9 +2,9 @@ cask "teledrive" do
   version :latest
   sha256 :no_check  
   
-  # github.com/KhushrajRathod/TeleDrive/ was verified as official when first introduced to the cask
+  # github.com/khrj/teledrive/ was verified as official when first introduced to the cask
   url "https://teledrive.khushrajrathod.me/api/?type=dmg"
-  appcast "https://github.com/KhushrajRathod/TeleDrive/releases.atom"
+  appcast "https://github.com/khrj/teledrive/releases.atom"
   name "TeleDrive"
   homepage "https://teledrive.khushrajrathod.me/"
   
@@ -23,5 +23,5 @@ cask "teledrive" do
     "~/Library/Saved Application State/me.khushrajrathod.teledrive.savedState",
   ]
   
-  caveats "If installed without --no-quarantine, gatekeeper will \n initially stop you from running the app. \n'Right-click > Open' in finder the first time to workaround. \nSee https://github.com/KhushrajRathod/TeleDrive/issues/10 for details"
+  caveats "If installed without --no-quarantine, gatekeeper will \n initially stop you from running the app. \n'Right-click > Open' in finder the first time to workaround. \nSee https://github.com/khrj/teledrive/issues/10 for details"
 end
